@@ -1,44 +1,24 @@
 <!DOCTYPE >
 <html>
 <head>
-	<title>Greeting-App</title>
+	<title>Greetings Cards</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
-        <div class="sidebar">
-            <ul class="main">
-				<li><a href="#">add</a></li>
-				<li><a href="#">Edit</a></li>
-				<li><a href="#">Delete</a></li>
-
-			</ul>
-		</div>   
-	<h2>
-		Greetings Mesaging app
-	</h2>>
-	<div class = "Greetings"> 
-
-		<ul> 
-			<textarea name="G1" rows="2" cols="3">Message:  
-Name:</textarea>
-			<textarea name="G2" rows="2" cols="3">Message:
-Name: </textarea>
-			<textarea name="G3" rows="2" cols="3">Message: 
-Name: </textarea>
-			<textarea name="G4" rows="2" cols="3">Message: 
-Name: </textarea>
-			<textarea name="G5" rows="2" cols="3">Message: 
-Name: </textarea>
-			<textarea name="G6" rows="2" cols="3">Message: 
-Name: </textarea>
-			<textarea name="G7" rows="2" cols="3">Message: 
-Name: </textarea>
-			<textarea name="G8" rows="2" cols="3">Message: 
-Name: </textarea>
-			<textarea name="G9" rows="2" cols="3">Message: 
-Name: </textarea>
-		</ul>
-	</div>>
+	<h1 style="text-align: center;">Welcome To The Greetings App!</h1>
+	<h2 style="text-align: center;">Create your cards here!</h2>
+    <body>
+        <center>
+        <form method="POST" action="">
+            Greeting: <input type="text" name="Greeting" size="25"/><br>
+            Message: <input type="text" name="Message" size="25"/><br>
+            <br>
+            <input type="reset" value="RESET">
+            <input type="submit" value="SUBMIT">
+        </form>
+        </center>
+	<h1 style="text-align: center;">Greeting Cards</h1>
+	<div id = "greetingcard" class="main"></div>
+	<script src="greeting.js"> </script>
 </body>
 </html> 
